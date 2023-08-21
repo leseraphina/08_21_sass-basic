@@ -1,0 +1,23 @@
+@mixin center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$size:100px;
+$color-orange:orange;
+
+.container{
+  width:$size * 2;
+  height:$size * 2;
+  background-color:$color-orange;
+  margin-bottom: ($size / 2);
+  @include center;
+  .item{
+    @include center;
+    width:$size;
+    height:$size;
+    background-color: #fff;
+    color:$color-orange;
+  }
+}

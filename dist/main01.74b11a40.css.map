@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass\\main01.scss"],"names":[],"mappings":";AACA;AACA;EACE;;AACE;EACE;EACA","file":"main01.74b11a40.css","sourceRoot":"..","sourcesContent":["// 컴파일 된 후에는 주석 보이지 않다.\r\n/* 주석2 */ \r\n.container{\r\n  background-color:skyblue;\r\n    h1{\r\n      color:#fff;\r\n      font-size:60px;\r\n    }\r\n}\r\n// container h1"]}

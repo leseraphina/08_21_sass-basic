@@ -1,0 +1,20 @@
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  color: orange;
+}
+
+/*# sourceMappingURL=/main06.aaa11a62.css.map */

@@ -1,0 +1,19 @@
+.container{
+  background-color:yellow;
+  ul{
+    background-color:orange;
+    li{
+      font-size:40px;
+      background-color:green;
+      .no01{color:#fff;}
+      .no02{
+        color:yellow;
+      }
+    }
+  }
+  > ul{
+    li{
+      background-color:skyblue;
+    }
+  }
+}

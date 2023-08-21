@@ -1,0 +1,11 @@
+.container {
+  width: 200px;
+  height: calc(50vh - 20px);
+  font-size: 20px;
+  margin: 15px;
+  padding: 2px;
+  background-color: orange;
+  color: #fff;
+}
+
+/*# sourceMappingURL=/main05.5c1925cc.css.map */

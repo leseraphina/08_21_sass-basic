@@ -1,0 +1,19 @@
+$size: 200px;
+$color-orange:orange;
+$font:30px;
+
+.container{
+  // width:400px;
+  width:$size * 2;
+  background-color:$color-orange;
+  padding:$size;
+  .item{
+    //  지역으로 재할당
+    $size : 150px;
+    width:$size * 2;
+    height:$size * 2;
+    color:green;
+    font-size:$font;
+    background-color:#fff;
+  }
+}

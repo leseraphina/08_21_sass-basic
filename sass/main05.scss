@@ -1,0 +1,14 @@
+$size:100px;
+
+.container{
+  width:$size + $size ;
+  //  단위가 다르다.
+  // height:50vh - 30px;
+  height:calc(50vh - 20px);
+  font-size:10px * 2 ;
+  margin:( 30px / 2 );
+  // margin:calc(30px / 2) ;
+  padding:20px % 3;
+  background-color: orange;
+  color:#fff;
+}
